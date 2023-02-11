@@ -7,6 +7,5 @@
         <file>UploadIcon.svg</file>
         <file>128.png</file>
         <file>Icon.icns</file>
-        <file>Info.plist</file>
     </qresource>
 </RCC>
