@@ -1,6 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
 <plist version="1.0">
-<dict>
+  <dict>
     <key>com.apple.security.cs.allow-jit</key>
     <true/>
     <key>com.apple.security.cs.allow-unsigned-executable-memory</key>
@@ -13,43 +14,5 @@
     <true/>
     <key>com.apple.security.device.camera</key>
     <true/>
-        <key>CFBundleExecutable</key>
-            <string>${PRODUCT_NAME}</string>
-        <key>CFBundleName</key>
-            <string>${PRODUCT_NAME}</string>
-        <key>CFBundleIconFile</key>
-            <string>Icon.icns</string>
-        <key>CFBundleIdentifier</key>
-            <string>io.nunchuk.macos</string>
-        <key>CFBundlePackageType</key>
-            <string>APPL</string>
-        <key>CFBundleSignature</key>
-            <string>????</string>
-        <key>LSMinimumSystemVersion</key>
-            <string>${CMAKE_OSX_DEPLOYMENT_TARGET}</string>
-        <key>NSPrincipalClass</key>
-            <string>NSApplication</string>
-        <key>NSSupportsAutomaticGraphicsSwitching</key>
-            <true/>
-        <key>CFBundleDisplayName</key>
-            <string>${PRODUCT_NAME}</string>
-        <key>CFBundleShortVersionString</key>
-            <string>1.9.16</string>
-        <key>CFBundleGetInfoString</key>
-            <string>Nunchuk 1.9.16</string>
-        <key>NSHighResolutionCapable</key>
-            <true/>
-        <key>NSCameraUsageDescription</key>
-            <string>Access to the camera needed to scan QR codes</string>
-        <key>CFBundleDevelopmentRegion</key>
-            <string>English</string>
-        <key>CFBundleInfoDictionaryVersion</key>
-            <string>6.0</string>
-        <key>CFBundleVersion</key>
-            <string>1.9.16</string>
-        <key>CFBundleIconName</key>
-            <string>AppIcon</string>
-        <key>UIPrerenderedIcon</key>
-            <true/>
-</dict>
+  </dict>
 </plist>
