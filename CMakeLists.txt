@@ -1,6 +1,6 @@
 cmake_minimum_required(VERSION 3.5)
 
-project(key-utils VERSION 0.1 LANGUAGES CXX)
+project(KeyUtils VERSION 0.1 LANGUAGES CXX)
 
 set(CMAKE_INCLUDE_CURRENT_DIR ON)
 
@@ -55,7 +55,7 @@ else()
             ${PROJECT_SOURCES}
             resources.qrc
         )
-        set_target_properties(${PROJECT_NAME} PROPERTIES MACOSX_BUNDLE_INFO_PLIST "${CMAKE_CURRENT_SOURCE_DIR}/Info.plist")
+
     else ()
         add_executable(${PROJECT_NAME} WIN32
             ${PROJECT_SOURCES}
